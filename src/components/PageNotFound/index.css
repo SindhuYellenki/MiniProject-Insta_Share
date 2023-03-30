@@ -1,0 +1,53 @@
+.pageNotFound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundHeading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #262626;
+  margin-bottom: 0;
+}
+
+.notFoundPara {
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #989898;
+}
+
+.notFoundButton {
+  background-color: #4094ef;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .notFoundHeading {
+    font-size: 20px;
+  }
+
+  .notFoundPara {
+    font-size: 16px;
+  }
+}

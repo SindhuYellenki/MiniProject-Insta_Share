@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.PostCardContainer {
+  width: 100%;
+  margin-left: -30px;
+}
+.profilePic-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.link {
+  font-style: normal;
+}
+.postCard-ProfilePic {
+  height: 28px;
+  width: 28px;
+  border-radius: 25px;
+}
+.postCard-userName {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+  margin-left: 5px;
+  outline-style: none;
+}
+.postCardImage {
+  width: 100%;
+  height: 375px;
+}
+.reactionsContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -5px;
+  height: 30px;
+}
+.likeIcon {
+  height: 22px;
+  width: 28px;
+  margin-left: 10px;
+}
+.shareIcon {
+  margin-left: 10px;
+  height: 22px;
+  width: 22px;
+}
+.likedIcon {
+  height: 34px;
+  width: 28px;
+  margin-left: 10px;
+}
+.commentIcon {
+  margin-left: 10px;
+  height: 22px;
+  width: 22px;
+}
+.likeButton {
+  background: transparent;
+  border: none;
+  margin-top: 5px;
+  margin-right: -2px;
+}
+.likes {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.07px;
+  color: #262626;
+  margin-left: 15px;
+}
+.caption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.07px;
+  color: #262626;
+  margin-left: 15px;
+}
+
+.comments-container {
+  list-style: none;
+  list-style-type: none;
+  margin-left: -18px;
+}
+
+.span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  color: #262626;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+.comment {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.07px;
+  color: #262626;
+}
+.created {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.05px;
+  color: #989898;
+  margin-left: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .postCard-userName {
+    font-size: 22px;
+    margin-left: 15px;
+  }
+  .profilePic-name-container {
+    width: 1040px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px 4px 0px 0px;
+    margin-top: 50px;
+    margin-left: -0.5px;
+  }
+  .postCardImage {
+    width: 1040px;
+    height: 1000px;
+  }
+  .desktop-styling-posts {
+    width: 1040px;
+    height: 194px;
+    left: 0px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: -5px;
+  }
+
+  .postCard-ProfilePic {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    margin-left: 15px;
+  }
+  .likes {
+    font-size: 14px;
+  }
+  .caption {
+    font-size: 14px;
+  }
+  .created {
+    font-size: 14px;
+  }
+  .text-container {
+    height: 194px;
+  }
+}

@@ -1,0 +1,50 @@
+.failureView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.failureImage {
+  width: 560px;
+}
+
+.failureText {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #262626;
+}
+
+.RetryButton {
+  background-color: #4094ef;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-grow: 1;
+}
+@media screen and (min-width: 768px) {
+  .loader-container {
+    width: 100%;
+  }
+}

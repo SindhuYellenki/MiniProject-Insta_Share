@@ -1,0 +1,115 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-item {
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -25px;
+}
+.slick-container {
+  width: 80%;
+  margin-top: 10px;
+}
+.slick-story-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  text-align: center;
+}
+.logo-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.name {
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  color: #262626;
+  height: 24px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.desktop-view-slider {
+  display: none;
+}
+.story-ring {
+  height: 60px;
+  width: 60px;
+  border-radius: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stories-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.posts-failure-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #262626;
+  text-align: center;
+}
+.profile-failure-button {
+  background-color: #4094ef;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .story-ring {
+    height: 90px;
+    width: 90px;
+    border-radius: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .desktop-view-slider {
+    display: flex;
+  }
+
+  .logo-image {
+    height: 75px;
+    width: 75px;
+    border-radius: 45px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .slick-container {
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: -25px;
+  }
+}
